@@ -47,7 +47,7 @@ fun WeatherSuccessView(data: WeatherItem) {
                     tint = Color.White
                 )
                 Text(
-                    text = "Kota ${data.cityName}",
+                    text = data.cityName,
                     color = Color.White,
                     fontWeight = FontWeight.Normal
                 )
